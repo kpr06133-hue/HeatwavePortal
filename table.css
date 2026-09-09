@@ -1,0 +1,97 @@
+/* =====================================================
+   HEATWAVE INTELLIGENCE SYSTEM
+   Task 7 - Forecast Table Styling
+   ===================================================== */
+
+
+/* ===== Forecast Table ===== */
+
+.forecastTable {
+    width: 95%;
+    margin: 25px auto;
+
+    border-collapse: collapse;
+
+    background-color: #fffaf5;
+
+    color: #4b3028;
+
+    text-align: center;
+
+    box-shadow: 0 5px 14px rgba(120, 70, 40, 0.12);
+}
+
+
+/* ===== Table Caption ===== */
+
+.forecastTable caption {
+    caption-side: top;
+
+    color: #8b1e1e;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    padding: 12px;
+}
+
+
+/* ===== Table Header ===== */
+
+.forecastTable thead {
+    background-color: #e8a317;
+
+    color: #ffffff;
+}
+
+
+/* ===== Table Cells ===== */
+
+.forecastTable th,
+.forecastTable td {
+    border: 1px solid #e2c5b4;
+
+    padding: 12px;
+}
+
+
+/* ===== Zebra Striping ===== */
+
+.forecastTable tbody tr:nth-child(even) {
+    background-color: #fff1df;
+}
+
+
+/* ===== Hover Effect ===== */
+
+.forecastTable tbody tr:hover {
+    background-color: #f8d8b5;
+}
+
+
+/* ===== Severity Styling ===== */
+
+.severity-red {
+    color: #a61b1b;
+    font-weight: bold;
+}
+
+.severity-orange {
+    color: #c45b17;
+    font-weight: bold;
+}
+
+.severity-yellow {
+    color: #9a7300;
+    font-weight: bold;
+}
+
+
+/* ===== Table Footer ===== */
+
+.forecastTable tfoot {
+    background-color: #f4dfcf;
+
+    font-weight: bold;
+}

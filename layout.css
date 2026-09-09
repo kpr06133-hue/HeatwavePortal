@@ -1,0 +1,170 @@
+/* =====================================================
+   HEATWAVE INTELLIGENCE SYSTEM
+   TASK 9 - PAGE LAYOUT
+   Header | Sidebar | Content | Footer
+   ===================================================== */
+
+
+/* ===== Overall Page ===== */
+
+.layoutPage {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ===== Header ===== */
+
+.layoutHeader {
+    background-color: #fff4e6;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border-bottom: 2px solid #e8a317;
+}
+
+
+/* ===== Main Layout ===== */
+
+.layoutMain {
+    width: 92%;
+
+    max-width: 1200px;
+
+    margin: 25px auto;
+
+    display: flex;
+
+    gap: 25px;
+
+    flex: 1;
+}
+
+
+/* ===== Left Sidebar ===== */
+
+.layoutSidebar {
+    width: 230px;
+
+    flex-shrink: 0;
+
+    background-color: #fff4e6;
+
+    border: 1px solid #e8c7b5;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    box-shadow: 0 5px 12px rgba(120, 70, 40, 0.12);
+}
+
+
+/* ===== Sidebar Heading ===== */
+
+.layoutSidebar h2 {
+    color: #8b1e1e;
+
+    margin-top: 0;
+}
+
+
+/* ===== Sidebar Links ===== */
+
+.layoutSidebar a {
+    display: block;
+
+    text-decoration: none;
+
+    color: #7c3f2c;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    margin: 6px 0;
+
+    border-radius: 10px;
+}
+
+
+/* ===== Sidebar Hover ===== */
+
+.layoutSidebar a:hover {
+    background-color: #f6c89f;
+
+    color: #5c241b;
+}
+
+
+/* ===== Right Content ===== */
+
+.layoutContent {
+    flex: 1;
+
+    background-color: #ffffff;
+
+    border: 1px solid #e8c7b5;
+
+    border-radius: 18px;
+
+    padding: 25px;
+
+    box-shadow: 0 5px 12px rgba(120, 70, 40, 0.10);
+}
+
+
+/* ===== Content Headings ===== */
+
+.layoutContent h2 {
+    color: #8b1e1e;
+}
+
+
+/* ===== Highlight Box ===== */
+
+.layoutHighlight {
+    background-color: #fff4e6;
+
+    border-left: 5px solid #e8a317;
+
+    padding: 15px;
+
+    margin: 20px 0;
+
+    border-radius: 10px;
+}
+
+
+/* ===== Footer ===== */
+
+.layoutFooter {
+    background-color: #51342f;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: auto;
+}
+
+
+/* ===== Responsive Layout ===== */
+
+@media screen and (max-width: 700px) {
+
+    .layoutMain {
+        flex-direction: column;
+    }
+
+    .layoutSidebar {
+        width: auto;
+    }
+
+}

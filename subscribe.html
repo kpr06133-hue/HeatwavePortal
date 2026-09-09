@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Subscribe | Heatwave Intelligence System</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+
+<body>
+
+   
+
+    <header id="headerSection">
+
+        <h1 id="systemName">
+            Heatwave Intelligence System
+        </h1>
+
+        <p>
+            Subscribe for Heatwave Advisories
+        </p>
+
+    </header>
+
+
+    <hr>
+
+
+    <main>
+
+      
+        <section>
+
+            <h2>Stay Updated. Stay Safe.</h2>
+
+            <p>
+
+                Subscribe to receive heatwave alerts,
+                regional forecasts and safety advisories
+                relevant to your location.
+
+            </p>
+
+        </section>
+
+
+        
+
+        <form class="advisoryForm">
+
+
+         
+
+            <fieldset>
+
+                <legend>
+                    Citizen Information
+                </legend>
+
+
+                <label for="citizenName">
+                    Full Name
+                </label>
+
+                <br>
+
+                <input type="text"
+                       id="citizenName"
+                       name="citizenName"
+                       placeholder="Enter your full name"
+                       required>
+
+                <br>
+
+
+                <label for="email">
+                    Email Address
+                </label>
+
+                <br>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="you@example.com"
+                       required>
+
+                <br>
+
+
+                <label for="mobile">
+                    Mobile Number
+                </label>
+
+                <br>
+
+                <input type="tel"
+                       id="mobile"
+                       name="mobile"
+                       placeholder="Enter your mobile number"
+                       required>
+
+            </fieldset>
+
+
+            <!-- ===== Region Selection ===== -->
+
+            <fieldset>
+
+                <legend>
+                    Region & Language
+                </legend>
+
+
+                <label for="region">
+                    Select your region
+                </label>
+
+                <br>
+
+                <select id="region"
+                        name="region"
+                        required>
+
+                    <option value="">
+                        -- Select Region --
+                    </option>
+
+                    <option value="mumbai">
+                        Mumbai
+                    </option>
+
+                    <option value="pune">
+                        Pune
+                    </option>
+
+                    <option value="nagpur">
+                        Nagpur
+                    </option>
+
+                    <option value="nashik">
+                        Nashik
+                    </option>
+
+                    <option value="aurangabad">
+                        Aurangabad
+                    </option>
+
+                    <option value="delhi">
+                        Delhi
+                    </option>
+
+                </select>
+
+
+                <label>
+                    Preferred Alert Language
+                </label>
+
+                <br><br>
+
+
+                <input type="radio"
+                       id="english"
+                       name="language"
+                       value="english"
+                       checked>
+
+                <label for="english">
+                    English
+                </label>
+
+
+                <br>
+
+
+                <input type="radio"
+                       id="hindi"
+                       name="language"
+                       value="hindi">
+
+                <label for="hindi">
+                    Hindi
+                </label>
+
+
+                <br>
+
+
+                <input type="radio"
+                       id="marathi"
+                       name="language"
+                       value="marathi">
+
+                <label for="marathi">
+                    Marathi
+                </label>
+
+            </fieldset>
+
+
+
+            <fieldset>
+
+                <legend>
+                    Alerts You Would Like to Receive
+                </legend>
+
+
+                <input type="checkbox"
+                       id="heatwaveAlerts"
+                       name="alerts"
+                       value="heatwave">
+
+                <label for="heatwaveAlerts">
+                    Heatwave Alerts
+                </label>
+
+                <br><br>
+
+
+                <input type="checkbox"
+                       id="forecastAlerts"
+                       name="alerts"
+                       value="forecast">
+
+                <label for="forecastAlerts">
+                    Forecast Updates
+                </label>
+
+                <br><br>
+
+
+                <input type="checkbox"
+                       id="safetyAlerts"
+                       name="alerts"
+                       value="safety">
+
+                <label for="safetyAlerts">
+                    Safety Advisories
+                </label>
+
+                <br><br>
+
+
+                <input type="checkbox"
+                       id="emergencyAlerts"
+                       name="alerts"
+                       value="emergency">
+
+                <label for="emergencyAlerts">
+                    Emergency Warnings
+                </label>
+
+            </fieldset>
+
+
+    
+
+            <div class="formButtons">
+
+                <input type="submit"
+                       value="Subscribe to Alerts">
+
+                <input type="reset"
+                       value="Clear Form">
+
+            </div>
+
+
+        </form>
+
+    </main>
+
+
+    <hr>
+
+
+    <footer id="footerSection">
+
+        <p>
+            Stay Hydrated • Stay Safe • Stay Informed
+        </p>
+
+        <p>
+            © 2026 Heatwave Intelligence System
+        </p>
+
+        <p>
+            Department of Computer Engineering<br>
+            K. J. Somaiya School of Engineering
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+/* =====================================================
+   HEATWAVE INTELLIGENCE SYSTEM
+   TASK 8 - ADVISORY FORM STYLING
+   ===================================================== */
+
+
+/* ===== Main Form ===== */
+
+.advisoryForm {
+    width: 90%;
+    max-width: 700px;
+
+    margin: 25px auto;
+    padding: 25px;
+
+    background-color: #fffaf5;
+
+    border: 1px solid #e8c7b5;
+    border-radius: 18px;
+
+    box-shadow: 0 6px 16px rgba(120, 70, 40, 0.12);
+}
+
+
+/* ===== Fieldset ===== */
+
+.advisoryForm fieldset {
+    border: 2px solid #e8a317;
+
+    border-radius: 14px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+}
+
+
+/* ===== Legend ===== */
+
+.advisoryForm legend {
+    color: #8b1e1e;
+
+    font-weight: bold;
+
+    padding: 0 10px;
+}
+
+
+/* ===== Labels ===== */
+
+.advisoryForm label {
+    color: #5c3b30;
+
+    font-weight: bold;
+}
+
+
+/* ===== Text Inputs ===== */
+
+.advisoryForm input[type="text"],
+.advisoryForm input[type="email"],
+.advisoryForm input[type="tel"],
+.advisoryForm select {
+    width: 95%;
+
+    padding: 11px;
+
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+    border: 1px solid #d8b7a5;
+
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    box-sizing: border-box;
+}
+
+
+/* ===== Focus Effect ===== */
+
+.advisoryForm input:focus,
+.advisoryForm select:focus {
+    outline: none;
+
+    border-color: #e8a317;
+
+    box-shadow: 0 0 6px rgba(232, 163, 23, 0.35);
+}
+
+
+/* ===== Radio Buttons & Checkboxes ===== */
+
+.advisoryForm input[type="radio"],
+.advisoryForm input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+
+/* ===== Button Area ===== */
+
+.formButtons {
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+
+/* ===== Buttons ===== */
+
+.advisoryForm input[type="submit"],
+.advisoryForm input[type="reset"] {
+    padding: 11px 22px;
+
+    margin: 5px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* ===== Submit Button ===== */
+
+.advisoryForm input[type="submit"] {
+    background-color: #a64b2a;
+
+    color: white;
+}
+
+
+/* ===== Reset Button ===== */
+
+.advisoryForm input[type="reset"] {
+    background-color: #ead6c8;
+
+    color: #5c3024;
+}
+
+
+/* ===== Button Hover ===== */
+
+.advisoryForm input[type="submit"]:hover {
+    background-color: #7c3f2c;
+}
+
+.advisoryForm input[type="reset"]:hover {
+    background-color: #d5b4a0;
+}

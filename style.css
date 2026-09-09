@@ -1,0 +1,112 @@
+/* =====================================================
+   HEATWAVE INTELLIGENCE SYSTEM
+   External CSS - Task 3
+   ===================================================== */
+
+
+/* ================= General Page Styling ================= */
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #fffaf5;
+    color: #4b3028;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* ================= Common Headings ================= */
+
+h1 {
+    color: #8b1e1e;
+}
+
+h2 {
+    color: #a64b2a;
+}
+
+h3 {
+    color: #c66a32;
+}
+
+
+/* ================= Header ================= */
+
+header {
+    background-color: #fff4e6;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #e8a317;
+}
+
+header p {
+    color: #6b4f3a;
+}
+
+
+/* ================= Main Content ================= */
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+
+/* ================= Sections ================= */
+
+section {
+    background-color: #ffffff;
+    padding: 22px;
+    margin: 20px 0;
+    border: 1px solid #f0d5c0;
+    border-radius: 16px;
+}
+
+
+/* ================= Links ================= */
+
+a {
+    color: #8b4513;
+}
+
+a:hover {
+    color: #c2410c;
+}
+
+
+/* ================= Horizontal Lines ================= */
+
+hr {
+    border: 0;
+    border-top: 1px solid #e8c7b5;
+    margin: 20px 0;
+}
+
+
+/* ================= Footer ================= */
+
+footer {
+    background-color: #4b3028;
+    color: #fff8f0;
+    text-align: center;
+    padding: 22px;
+    margin-top: 35px;
+}
+
+footer p {
+    margin: 6px;
+}
+
+
+/* ================= Small Details ================= */
+
+strong {
+    color: #8b1e1e;
+}
+
+mark {
+    background-color: #ffe0a8;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
